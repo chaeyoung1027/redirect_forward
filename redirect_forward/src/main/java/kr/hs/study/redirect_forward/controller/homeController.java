@@ -17,4 +17,8 @@ public class homeController {
     public String result(){
         return "result";
     }
+    @GetMapping("/forward")
+    public String forward(){
+        return "forward:result";
+    }
 }
